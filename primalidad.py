@@ -37,7 +37,6 @@
 si el resultado de alguna de estas divisiones es exacto entonces el número no es primo'''
 
 def es_primo(numero):
-    
     validacion = True
     for i in range(1, int(round(numero**(1/2.0),0))+1):
         if i==1 or i==numero:
